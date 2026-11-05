@@ -24,7 +24,7 @@ export default function Navbar() {
               P
             </div>
             <span className="text-xl font-bold">
-              Pitch<span className="text-primary-light">Capital</span>
+              Investor<span className="text-primary-light">IQ</span>
             </span>
           </Link>
 

@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | Pitch Capital",
-  description: "Learn about our mission to democratize fundraising with AI. Founded by Franco Ieraci, Pitch Capital is revolutionizing how founders raise capital.",
+  title: "About | InvestorIQ",
+  description: "Learn about InvestorIQ, an AI platform that helps founders build pitch decks, find relevant investors and manage outreach.",
 };
 
 const values = [
@@ -61,7 +61,7 @@ export default function AboutPage() {
               <span className="gradient-text">Future of Fundraising</span>
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              The old way of raising capital was slow, unfair, and exclusive. Pitch Capital was built for a new era -- where every visionary founder gets fast, transparent access to the capital they need to change the world.
+              The old way of raising capital was slow, unfair, and exclusive. InvestorIQ was built for a new era -- where every visionary founder gets fast, transparent access to the capital they need to change the world.
             </p>
           </div>
         </div>
@@ -73,31 +73,31 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-                Born from a <span className="gradient-text">Founder&apos;s Pain</span>
+                Why <span className="gradient-text">InvestorIQ</span>
               </h2>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  Franco Ieraci has successfully built and exited multiple tech companies, consistently pushing the boundaries of what AI can do.
+                  Raising capital takes founders away from building their business: weeks on a pitch deck, long investor searches, and outreach that rarely lands.
                 </p>
                 <p>
-                  Through every success, one painful truth remained -- fundraising was a broken system. It meant months wasted on pitch decks, endless investor searches, and sacrificing valuable time that should have been spent building the actual business.
+                  InvestorIQ brings the work into one place: build an investor-ready deck, find investors who back your sector and stage, and manage outreach and meetings.
                 </p>
                 <p>
-                  Franco envisioned a better way -- a platform that wasn&apos;t just another tool, but an AI-powered ecosystem built to automate the grind and level the playing field.
+                  We use AI to handle the repetitive parts so founders can spend their time on the conversations that matter.
                 </p>
                 <p className="text-white font-medium">
-                  Pitch Capital is the solution he once wished he had.
+                  InvestorIQ is a technology platform, not a broker-dealer or investment adviser.
                 </p>
               </div>
             </div>
             <div className="glass-card rounded-3xl p-10 text-center">
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-6 flex items-center justify-center text-5xl font-bold text-white">
-                FI
+                IQ
               </div>
-              <h3 className="text-2xl font-bold">Franco Ieraci</h3>
-              <p className="text-primary-light mb-4">Founder & CEO</p>
+              <h3 className="text-2xl font-bold">InvestorIQ</h3>
+              <p className="text-primary-light mb-4">AI fundraising platform</p>
               <p className="text-slate-400 text-sm italic">
-                &ldquo;We don&apos;t just build software; we build connections.&rdquo;
+                Deck, investor matching and outreach in one place.
               </p>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
             Join the <span className="gradient-text">Revolution</span>
           </h2>
           <p className="text-xl text-slate-400 mb-10 max-w-xl mx-auto">
-            Pitch Capital helps founders prepare, match and pitch to raise the capital they need.
+            InvestorIQ helps founders prepare, match and pitch to raise the capital they need.
           </p>
           <Link href="/pricing" className="btn-accent px-10 py-4 rounded-full text-lg font-bold inline-block">
             Get Started Today

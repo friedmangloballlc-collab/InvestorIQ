@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing | Pitch Capital",
+  title: "Pricing | InvestorIQ",
   description: "Simple, transparent pricing. Choose the plan that fits your fundraising stage. From free pitch decks to full-service capital raising.",
 };
 

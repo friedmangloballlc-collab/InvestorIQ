@@ -1,6 +1,6 @@
-# Pitch Capital
+# InvestorIQ
 
-AI-powered fundraising platform. Create investor-ready pitch decks in 90 seconds, match with verified VCs, and close deals securely.
+AI-powered fundraising platform. Create investor-ready pitch decks in 90 seconds, match with relevant investors, and close deals securely.
 
 ## Getting Started
 

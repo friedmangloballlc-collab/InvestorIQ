@@ -8,16 +8,16 @@ const categories = [
     name: "General",
     faqs: [
       {
-        q: "What is Pitch Capital?",
-        a: "Pitch Capital is an AI fundraising platform. We automate your entire capital-raising journey -- from creating investor-ready pitch decks in 90 seconds, to matching you with verified VCs, to closing deals through secure data rooms and escrow.",
+        q: "What is InvestorIQ?",
+        a: "InvestorIQ is an AI fundraising platform. We automate your entire capital-raising journey -- from creating investor-ready pitch decks in 90 seconds, to matching you with verified VCs, to closing deals through secure data rooms and escrow.",
       },
       {
-        q: "Who is Pitch Capital for?",
-        a: "Pitch Capital serves founders and companies at all stages -- from Pre-seed to Series C+. Whether you're a first-time founder or a serial entrepreneur, our platform streamlines the fundraising process for you.",
+        q: "Who is InvestorIQ for?",
+        a: "InvestorIQ serves founders and companies at all stages -- from Pre-seed to Series C+. Whether you're a first-time founder or a serial entrepreneur, our platform streamlines the fundraising process for you.",
       },
       {
-        q: "Is Pitch Capital a broker-dealer or investment adviser?",
-        a: "No. Pitch Capital is a technology platform only. We provide tools, data, and communication features to connect founders with investors. We are not a broker-dealer, investment adviser, or financial intermediary.",
+        q: "Is InvestorIQ a broker-dealer or investment adviser?",
+        a: "No. InvestorIQ is a technology platform only. We provide tools, data, and communication features to connect founders with investors. We are not a broker-dealer, investment adviser, or financial intermediary.",
       },
       {
         q: "What sectors do you focus on?",
@@ -132,7 +132,7 @@ export default function FAQPage() {
             <span className="gradient-text">Questions</span>
           </h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Everything you need to know about Pitch Capital. Can&apos;t find what you&apos;re looking for? Reach out to our team.
+            Everything you need to know about InvestorIQ. Can&apos;t find what you&apos;re looking for? Reach out to our team.
           </p>
         </div>
       </section>

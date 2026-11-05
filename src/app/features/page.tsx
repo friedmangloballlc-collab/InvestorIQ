@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Features | Pitch Capital",
+  title: "Features | InvestorIQ",
   description: "Explore our AI-powered features: pitch deck generator, investor matching, secure data rooms, escrow, and investor meetings.",
 };
 
@@ -188,7 +188,7 @@ export default function FeaturesPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               Traditional vs{" "}
-              <span className="gradient-text">Pitch Capital</span>
+              <span className="gradient-text">InvestorIQ</span>
             </h2>
             <p className="text-xl text-slate-400">See the difference AI makes in your fundraising journey.</p>
           </div>
@@ -197,7 +197,7 @@ export default function FeaturesPage() {
             <div className="grid grid-cols-3 bg-dark-lighter/50 p-4 font-semibold text-sm">
               <div className="text-slate-400">Process</div>
               <div className="text-center text-slate-400">Traditional</div>
-              <div className="text-center text-primary-light">Pitch Capital</div>
+              <div className="text-center text-primary-light">InvestorIQ</div>
             </div>
             {comparison.map((row, i) => (
               <div
@@ -222,7 +222,7 @@ export default function FeaturesPage() {
             Ready to Experience the <span className="gradient-text">Future?</span>
           </h2>
           <p className="text-xl text-slate-400 mb-10 max-w-xl mx-auto">
-            Start with a free pitch deck and see what Pitch Capital can do for your raise.
+            Start with a free pitch deck and see what InvestorIQ can do for your raise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/pricing" className="btn-accent px-10 py-4 rounded-full text-lg font-bold">

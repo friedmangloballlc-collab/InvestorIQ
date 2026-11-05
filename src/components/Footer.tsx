@@ -11,7 +11,7 @@ export default function Footer() {
                 P
               </div>
               <span className="text-xl font-bold">
-                Pitch<span className="text-primary-light">Capital</span>
+                Investor<span className="text-primary-light">IQ</span>
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} Pitch Capital. All rights reserved.
+            &copy; {new Date().getFullYear()} InvestorIQ. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {[
