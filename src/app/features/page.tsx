@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Features | Pitch Capital",
-  description: "Explore our AI-powered features: pitch deck generator, investor matching, secure data rooms, escrow, and guaranteed meetings.",
+  description: "Explore our AI-powered features: pitch deck generator, investor matching, secure data rooms, escrow, and investor meetings.",
 };
 
 const features = [
   {
     title: "AI Pitch Deck Generator",
-    description: "Upload your business info and get a professional, investor-ready pitch deck in 90 seconds. Our AI analyzes thousands of successful decks to craft the perfect narrative for your company.",
+    description: "Upload your business info and get a professional, investor-ready pitch deck in 90 seconds. Our AI follows proven pitch-deck structure to craft a clear narrative for your company.",
     highlights: [
       "Generates 15+ slide pitch decks instantly",
       "Includes financial models and projections",
@@ -26,9 +26,9 @@ const features = [
   },
   {
     title: "Smart Investor Matching",
-    description: "Our AI scans our network of 5,000+ verified investors and matches you with VCs who actively invest in your sector, stage, and geography. No more cold outreach.",
+    description: "Our AI scans our investor network and matches you with VCs who actively invest in your sector, stage, and geography. No more cold outreach.",
     highlights: [
-      "5,000+ pre-qualified, verified investors",
+      "Investors filtered by sector, stage and geography",
       "AI-powered compatibility scoring",
       "Hyper-personalized outreach sequences",
       "Focus on AI, HealthTech, FinTech, and more",
@@ -42,13 +42,13 @@ const features = [
     gradient: "from-cyan-500 to-blue-600",
   },
   {
-    title: "Guaranteed Investor Meetings",
-    description: "Not just introductions -- actual live meetings with decision-makers. We guarantee qualified investor meetings within 45 days or your money back.",
+    title: "Live Investor Meetings",
+    description: "Not just introductions -- actual live meetings with decision-makers. We work to book qualified investor meetings, aiming for the first within 45 days.",
     highlights: [
-      "Live calls with verified decision-makers",
+      "Live calls with decision-makers",
       "Calendar invites, not just email intros",
-      "2, 5, or 10 meetings/month based on plan",
-      "45-day meeting guarantee",
+      "Meeting targets of 2, 5, or 10/month based on plan",
+      "First-meeting target: 45 days",
       "Pre-qualified investors in your vertical",
     ],
     icon: (
@@ -115,7 +115,7 @@ const comparison = [
   { feature: "Pitch Deck Creation", traditional: "2-4 weeks", pitchCapital: "90 seconds" },
   { feature: "Investor Research", traditional: "Months of networking", pitchCapital: "Instant AI matching" },
   { feature: "Outreach", traditional: "Cold emails & LinkedIn", pitchCapital: "Automated & personalized" },
-  { feature: "Meetings", traditional: "No guarantee", pitchCapital: "Guaranteed in 45 days" },
+  { feature: "Meetings", traditional: "No guarantee", pitchCapital: "Targeted within 45 days" },
   { feature: "Due Diligence", traditional: "Scattered documents", pitchCapital: "Secure data rooms" },
   { feature: "Deal Close", traditional: "Wire transfers & lawyers", pitchCapital: "Built-in escrow" },
 ];
@@ -222,7 +222,7 @@ export default function FeaturesPage() {
             Ready to Experience the <span className="gradient-text">Future?</span>
           </h2>
           <p className="text-xl text-slate-400 mb-10 max-w-xl mx-auto">
-            Start with a free pitch deck and see why thousands of founders chose Pitch Capital.
+            Start with a free pitch deck and see what Pitch Capital can do for your raise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/pricing" className="btn-accent px-10 py-4 rounded-full text-lg font-bold">

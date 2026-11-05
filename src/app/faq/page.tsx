@@ -9,7 +9,7 @@ const categories = [
     faqs: [
       {
         q: "What is Pitch Capital?",
-        a: "Pitch Capital is the world's first AI fundraising platform. We automate your entire capital-raising journey -- from creating investor-ready pitch decks in 90 seconds, to matching you with verified VCs, to closing deals through secure data rooms and escrow.",
+        a: "Pitch Capital is an AI fundraising platform. We automate your entire capital-raising journey -- from creating investor-ready pitch decks in 90 seconds, to matching you with verified VCs, to closing deals through secure data rooms and escrow.",
       },
       {
         q: "Who is Pitch Capital for?",
@@ -30,11 +30,11 @@ const categories = [
     faqs: [
       {
         q: "How does the AI pitch deck generator work?",
-        a: "Simply upload your business information -- company details, market size, revenue, and funding goals. Our AI analyzes thousands of successful pitch decks and generates a customized, investor-ready deck in about 90 seconds.",
+        a: "Simply upload your business information -- company details, market size, revenue, and funding goals. Our AI follows proven pitch-deck structure and generates a customized, investor-ready deck in about 90 seconds.",
       },
       {
         q: "How does investor matching work?",
-        a: "Our AI analyzes your company profile, sector, stage, and geography, then matches you with investors from our pre-qualified network of 5,000+ VCs who actively invest in companies like yours.",
+        a: "Our AI analyzes your company profile, sector, stage, and geography, then matches you with investors from our investor network who invest in companies like yours.",
       },
       {
         q: "What are secure data rooms?",
@@ -50,20 +50,20 @@ const categories = [
     name: "Meetings & Results",
     faqs: [
       {
-        q: "What does 'guaranteed meetings' mean?",
-        a: "The meetings included in your plan are actual, live calls with decision-making investors -- not just introductions or email intros. We guarantee qualified investor meetings within 45 days. If we don't deliver, you get a full refund.",
+        q: "What kind of meetings do you set up?",
+        a: "The meetings included in your plan are actual, live calls with decision-making investors -- not just introductions or email intros. Our goal is to book your first qualified investor meeting within 45 days; timing depends on your sector, stage and how quickly you complete onboarding.",
       },
       {
         q: "What's the success rate?",
-        a: "We have a 93% success rate across our platform. Most founders who complete our process receive at least one qualified investor meeting within 45 days of onboarding.",
+        a: "We're a new platform, so we don't publish a success rate yet. We'll share real results once enough founders have completed the process to measure them honestly.",
       },
       {
         q: "How quickly can I expect results?",
-        a: "Your pitch deck is ready in 90 seconds. Investor matching begins immediately. Most founders receive their first investor meeting within 2-4 weeks of onboarding.",
+        a: "Your pitch deck is ready in 90 seconds. Investor matching begins immediately. Meeting timing depends on your sector, stage and readiness; we'll give you a realistic estimate during onboarding.",
       },
       {
         q: "What if I don't get any meetings?",
-        a: "We stand behind our guarantee. Eligible clients who don't receive at least one qualified investor meeting within 90 days of completing onboarding receive a full refund.",
+        a: "We'll review your profile and outreach with you, adjust targeting, and keep working on matches. If you're unhappy in your first 14 days on a paid plan, our money-back policy applies.",
       },
     ],
   },
@@ -80,7 +80,7 @@ const categories = [
       },
       {
         q: "Do you offer refunds?",
-        a: "Yes. In addition to our 45-day meeting guarantee refund, we offer a 14-day money-back guarantee on all paid plans if you're not satisfied for any reason.",
+        a: "Yes. We offer a 14-day money-back guarantee on all paid plans if you're not satisfied for any reason.",
       },
       {
         q: "Are there any hidden fees?",

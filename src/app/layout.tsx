@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Pitch Capital | AI-Powered Fundraising Platform",
   description:
-    "The world's first AI fundraising platform. Create investor-ready pitch decks in 90 seconds, match with verified VCs, and close deals securely.",
+    "An AI fundraising platform. Create investor-ready pitch decks in 90 seconds, match with relevant investors, and close deals securely.",
   keywords: [
     "AI fundraising",
     "pitch deck generator",

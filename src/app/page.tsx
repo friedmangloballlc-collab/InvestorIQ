@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const stats = [
-  { value: "93%", label: "Success Rate" },
   { value: "90s", label: "Pitch Deck Generation" },
-  { value: "45", label: "Days Avg. to Funding" },
-  { value: "$2B+", label: "Capital Raised" },
+  { value: "AI", label: "Investor Matching" },
+  { value: "Live", label: "Investor Meetings" },
+  { value: "1", label: "Platform: Deck, Match & Outreach" },
 ];
 
 const features = [
@@ -26,7 +26,7 @@ const features = [
     ),
     title: "Smart Investor Matching",
     description:
-      "Our AI identifies your ideal investors from our verified network and executes hyper-personalized outreach automatically.",
+      "Our AI identifies your ideal investors from our investor network and executes hyper-personalized outreach automatically.",
   },
   {
     icon: (
@@ -34,9 +34,9 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
     ),
-    title: "Guaranteed Meetings",
+    title: "Real Investor Meetings",
     description:
-      "Not just introductions -- actual live calls with decision-makers. We guarantee qualified investor meetings within 45 days.",
+      "Not just introductions -- actual live calls with decision-makers. We work to book qualified investor meetings, typically aiming for the first within 45 days.",
   },
   {
     icon: (
@@ -67,31 +67,13 @@ const steps = [
     number: "03",
     title: "Match with Investors",
     description:
-      "Our AI scans our verified investor network and connects you with VCs who invest in your space.",
+      "Our AI scans our investor network and connects you with VCs who invest in your space.",
   },
   {
     number: "04",
     title: "Close Your Deal",
     description:
       "Manage meetings, share documents via secure data rooms, and close funding through our escrow system.",
-  },
-];
-
-const testimonials = [
-  {
-    quote: "Pitch Capital helped us raise our Series A in under 30 days. The AI-generated deck was better than what our agency produced.",
-    name: "Sarah Chen",
-    role: "CEO, HealthTech Startup",
-  },
-  {
-    quote: "The investor matching is incredible. Every meeting was with a VC who actually invests in our vertical. No more wasted pitches.",
-    name: "Marcus Johnson",
-    role: "Founder, AI Analytics Co.",
-  },
-  {
-    quote: "We went from idea to funded in 45 days. The platform handled everything -- deck, outreach, meetings, and the close.",
-    name: "Priya Patel",
-    role: "CTO, FinTech Platform",
   },
 ];
 
@@ -120,7 +102,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-              Create investor-ready pitch decks in 90 seconds. Match with verified VCs in minutes.
+              Create investor-ready pitch decks in 90 seconds. Match with relevant investors in minutes.
               Close deals securely -- all in one AI-powered ecosystem.
             </p>
 
@@ -213,36 +195,6 @@ export default function Home() {
 
       <div className="section-divider max-w-5xl mx-auto" />
 
-      {/* Testimonials */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-              Founders <span className="gradient-text">Love Us</span>
-            </h2>
-            <p className="text-xl text-slate-400">Join thousands of founders who&apos;ve raised millions through our platform.</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((t) => (
-              <div key={t.name} className="glass-card rounded-2xl p-8">
-                <div className="flex gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-slate-300 mb-6 leading-relaxed italic">&ldquo;{t.quote}&rdquo;</p>
-                <div>
-                  <div className="font-semibold">{t.name}</div>
-                  <div className="text-sm text-slate-500">{t.role}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <div className="section-divider max-w-5xl mx-auto" />
 

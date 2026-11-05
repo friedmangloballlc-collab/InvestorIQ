@@ -31,7 +31,7 @@ const plans = [
     features: [
       "Unlimited pitch decks",
       "Advanced financial models",
-      "2 guaranteed investor meetings/month",
+      "Target: 2 investor meetings/month",
       "AI investor matching",
       "Personalized outreach campaigns",
       "Basic data room",
@@ -48,7 +48,7 @@ const plans = [
     description: "Maximum velocity for serious fundraising.",
     features: [
       "Everything in Growth",
-      "5 guaranteed investor meetings/month",
+      "Target: 5 investor meetings/month",
       "Premium investor network access",
       "Advanced secure data rooms",
       "Built-in escrow service",
@@ -67,7 +67,7 @@ const plans = [
     description: "For companies raising Series B+ rounds.",
     features: [
       "Everything in Scale",
-      "10+ guaranteed meetings/month",
+      "Target: 10+ investor meetings/month",
       "White-glove onboarding",
       "Custom integrations",
       "Dedicated fundraising strategist",
@@ -83,8 +83,8 @@ const plans = [
 
 const faqs = [
   {
-    q: "What does 'guaranteed meetings' mean?",
-    a: "We guarantee actual live calls with verified, decision-making investors who actively invest in your sector. If we don't deliver within 45 days, you get a full refund.",
+    q: "What kind of meetings do you set up?",
+    a: "Actual live calls with decision-making investors who invest in your sector — not just email intros. We aim to book your first within 45 days.",
   },
   {
     q: "Can I switch plans anytime?",
@@ -181,9 +181,9 @@ export default function PricingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold mb-4">Our Meeting Guarantee</h2>
+              <h2 className="text-3xl font-bold mb-4">Our Meeting Commitment</h2>
               <p className="text-slate-300 text-lg max-w-2xl mx-auto leading-relaxed">
-                Pitch Capital guarantees that eligible clients will receive at least one qualified investor meeting within 90 days of completing onboarding. If we don&apos;t deliver, you get a full refund. No questions asked.
+                We work every week to book qualified investor meetings for you, aiming for your first within 45 days of completing onboarding. If you&apos;re not satisfied in your first 14 days on a paid plan, you get your money back.
               </p>
             </div>
           </div>
