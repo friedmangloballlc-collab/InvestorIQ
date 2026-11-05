@@ -46,30 +46,6 @@ const values = [
   },
 ];
 
-const team = [
-  {
-    name: "Franco Ieraci",
-    role: "Founder & CEO",
-    bio: "Serial AI entrepreneur with multiple exits. Built and exited Clickedin Inc. and Creatively.io before founding Pitch Capital.",
-  },
-  {
-    name: "James Stephan-Usypchuk",
-    role: "Chief Strategy & Information Security Officer",
-    bio: "Oversees investor relations, strategic partnerships, and platform security across the ecosystem.",
-  },
-  {
-    name: "Cassandra Steele",
-    role: "Director of Sales",
-    bio: "Leads our sales team in connecting founders with the right fundraising solutions for their stage.",
-  },
-];
-
-const milestones = [
-  { year: "2022", event: "Pitch Capital founded in Boca Raton, FL" },
-  { year: "2023", event: "Launched AI pitch deck generator" },
-  { year: "2025", event: "Launched secure data rooms & escrow system" },
-];
-
 export default function AboutPage() {
   return (
     <>
@@ -156,65 +132,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <div className="section-divider max-w-5xl mx-auto" />
-
-      {/* Team */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-              Meet the <span className="gradient-text">Team</span>
-            </h2>
-            <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-              A passionate team of entrepreneurs, engineers, and operators.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {team.map((member) => (
-              <div key={member.name} className="glass-card rounded-2xl p-8 text-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-primary-light">
-                  {member.name.split(" ").map((n) => n[0]).join("")}
-                </div>
-                <h3 className="text-lg font-bold">{member.name}</h3>
-                <p className="text-primary-light text-sm mb-3">{member.role}</p>
-                <p className="text-slate-400 text-sm leading-relaxed">{member.bio}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <div className="section-divider max-w-5xl mx-auto" />
-
-      {/* Timeline */}
-      <section className="py-24">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-              Our <span className="gradient-text">Journey</span>
-            </h2>
-          </div>
-
-          <div className="space-y-8">
-            {milestones.map((m, i) => (
-              <div key={m.year} className="flex gap-6 items-start">
-                <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-sm shrink-0">
-                    {m.year}
-                  </div>
-                  {i < milestones.length - 1 && (
-                    <div className="w-px h-12 bg-gradient-to-b from-primary/40 to-transparent mt-2" />
-                  )}
-                </div>
-                <div className="glass-card rounded-xl p-5 flex-1">
-                  <p className="text-slate-300">{m.event}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-24">
