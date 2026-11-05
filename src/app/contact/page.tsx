@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact | InvestorIQ",
@@ -64,68 +65,7 @@ export default function ContactPage() {
             {/* Form */}
             <div className="glass-card rounded-2xl p-8 sm:p-10">
               <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
-              <form className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-slate-300 mb-2">First Name</label>
-                    <input
-                      type="text"
-                      className="w-full bg-dark-lighter border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-primary/40 transition-colors"
-                      placeholder="John"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-slate-300 mb-2">Last Name</label>
-                    <input
-                      type="text"
-                      className="w-full bg-dark-lighter border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-primary/40 transition-colors"
-                      placeholder="Doe"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">Email</label>
-                  <input
-                    type="email"
-                    className="w-full bg-dark-lighter border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-primary/40 transition-colors"
-                    placeholder="john@company.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">Company</label>
-                  <input
-                    type="text"
-                    className="w-full bg-dark-lighter border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-primary/40 transition-colors"
-                    placeholder="Your Company"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">Fundraising Stage</label>
-                  <select className="w-full bg-dark-lighter border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary/40 transition-colors">
-                    <option value="">Select your stage</option>
-                    <option value="pre-seed">Pre-Seed</option>
-                    <option value="seed">Seed</option>
-                    <option value="series-a">Series A</option>
-                    <option value="series-b">Series B</option>
-                    <option value="series-c">Series C+</option>
-                    <option value="other">Other / Not Sure</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">Message</label>
-                  <textarea
-                    rows={4}
-                    className="w-full bg-dark-lighter border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-primary/40 transition-colors resize-none"
-                    placeholder="Tell us about your company and fundraising goals..."
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="btn-accent w-full py-4 rounded-full text-lg font-bold"
-                >
-                  Send Message
-                </button>
-              </form>
+              <ContactForm />
             </div>
 
             {/* Contact Info */}
